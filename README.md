@@ -36,5 +36,7 @@ C:\xampp\htdocs\ ```$ git clone https://github.com/LeonMarqs/to-do-list.git```
 
 * Não implementei um sistema de login ainda.
 
+* Os detalhes para conexão com o banco de dados estão no arquivo <strong>conexao.php</strong>.
+
 <hr>
 <h5 align="center"> O projeto é open-source, então se quiser contribuir, fique a vontade.</h5>
