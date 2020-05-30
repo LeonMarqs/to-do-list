@@ -1,0 +1,74 @@
+body {
+		font-family: 'Roboto', sans-serif;
+}
+
+i {
+	cursor: pointer;
+}
+
+#logo {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	letter-spacing: 2px;
+	margin-left: 5px;
+}
+
+.menu {
+	margin-bottom: 25px;
+}
+
+.app {
+	margin-top: 25px;
+}
+
+.pagina {
+	border:solid 1px #ccc;
+	padding:25px !important;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+li.list-group-item.active {
+	background-color: rgb(218, 250, 214);
+	border-color: #009933;
+  border-left: solid 10px #009933;
+}
+
+li a {
+	color: #212529;
+}
+
+li a:hover {
+	text-decoration: none;
+	color: #009933;
+}
+
+h4 {
+	color: #009933 !important;
+}
+
+.tarefa::after {
+	content: "";
+	margin-top: 20px;
+	display: block;
+	width: 95%;
+	height: 0.5px;
+	background-color: rgb(214, 214, 214);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pendente {
+	color: red;
+}
+
+.concluido {
+	color: green;
+}
+
+#tarefa {
+	border: 1px solid red;
+}
